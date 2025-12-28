@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445727138950",
+    "project_id": "devhackathon-b286b",
+    "storage_bucket": "devhackathon-b286b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445727138950:android:ecec32e27d70c3f8615d07",
+        "android_client_info": {
+          "package_name": "com.example.DevHackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBieBzgt5ZBdeENlh3f0nObihQuvEBUVv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
