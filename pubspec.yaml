@@ -47,6 +47,11 @@ dependencies:
   latlong2: ^0.9.1
   provider: ^6.1.5+1
   flutter_dotenv: ^6.0.0
+flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/icon/app_icon.jpeg"
+    min_sdk_android: 21
 
 dev_dependencies:
   flutter_test:
