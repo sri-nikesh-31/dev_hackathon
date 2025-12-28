@@ -89,11 +89,6 @@ During **admin registration**, Supabase sends a **confirmation email**.
 
 ⚠️ Login will not succeed until the email is confirmed.
 
-This design ensures:
-- Valid email ownership
-- Secure admin access
-- Prevention of fake admin accounts
-
 ---
 
 ## 👤 Admin Credentials (For Evaluation)
