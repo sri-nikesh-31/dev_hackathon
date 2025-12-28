@@ -43,7 +43,7 @@ The goal is to **reduce response time** and **improve coordination** during crit
   - PostgreSQL (Database)
   - Supabase Realtime (Live updates)
   - Supabase Storage (Image uploads)
-  - Supabase Auth (Anonymous authentication)
+  - Supabase Auth (Authentication)
 
 ### Other Libraries
 - `geolocator` – Location access
@@ -69,8 +69,30 @@ The goal is to **reduce response time** and **improve coordination** during crit
 ## 🔐 Authentication Model
 
 - **Anonymous authentication** for citizens  
-  (reduces friction during emergencies)
-- Admin access for moderation and monitoring
+  (minimizes friction during emergency reporting)
+- **Email-based authentication** for admin users
+
+---
+
+## 📧 Email Confirmation (Important)
+
+During **admin registration**, Supabase sends a **confirmation email**.
+
+### Registration flow:
+1. Register using email and password
+2. A **confirmation link** is sent to the registered email
+3. Open the email and **click the confirmation link**
+4. Reload the webpage
+5. Return to the app
+6. **Reload / reopen the app**
+7. Proceed with login
+
+⚠️ Login will not succeed until the email is confirmed.
+
+This design ensures:
+- Valid email ownership
+- Secure admin access
+- Prevention of fake admin accounts
 
 ---
 
@@ -80,6 +102,8 @@ The goal is to **reduce response time** and **improve coordination** during crit
 > **Password:** `Srinikesh`
 
 ⚠️ These credentials are provided **only for hackathon evaluation**.
+
+If prompted for email verification, please complete the confirmation once and then reload the app.
 
 ---
 
